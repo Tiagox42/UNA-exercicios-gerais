@@ -1,0 +1,84 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+html,body{
+	height: 100%;
+	background-color: chartreuse;
+	font-size: 20px;
+}
+
+section{
+	background-color: crimson;
+	margin: 20px;
+	padding: 20px;
+	border-radius: 20px;
+	text-align: center;
+}
+
+h1{
+	font-size: 20px;
+	margin-left: 20px;
+	margin-top: 20px;
+	color: rgb(73, 73, 73);
+}
+
+section p{
+	color: white;
+}
+
+.questoes{
+	width: 20%;
+}
+
+.questoes2{
+	width: 30%;
+	padding: 40px;
+}
+
+.caixa input{
+}
+
+.bott1{
+	margin: 16px;
+	padding: 8px;
+	border-radius: 20px;
+}
+
+.soma{
+	background-color: white;
+	padding: 30px;
+}
+
+h2{
+	font-size: 40px;
+	color: red;
+	padding-bottom: 20px;
+}
+
+.infonumero{
+	background-color: goldenrod;
+	padding: 15px;
+	padding-bottom: 40px;
+	margin-bottom: 30px;
+	width: 800px;
+	display: flex;
+}
+
+.bsoma{
+	margin-left: 10px;
+	text-align: end;
+}
+
+#resultado{
+	width: 800px;
+	padding-top: 20px;
+	padding-bottom: 50px;
+	background-color: green;
+	color: white;
+	text-align: center;
+	height: 95px;
+}

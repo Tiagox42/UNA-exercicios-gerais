@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prática 04 - Padrão</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="js.js"></script>
+</head>
+<body>
+
+    <h1>Questão 1:</h1>
+
+    <section class="questoes">
+        <p onclick="question1f()" id="p1">Estamos todos na UNA</p>
+    </section>
+
+    <h1>Questão 2:</h1>
+
+    <section class="questoes">
+        <p id="p2">Estamos todos na UNA</p>
+        <input type="button" class="bott1" value="Clique" onclick="question2f()">
+    </section>
+
+    <h1>Questão 3:</h1>
+    <section class="questoes">
+        <input type="button" class="bott1" value="Começar" onclick="question3f()">
+        <p id="p3"></p>
+    </section>
+
+    <h1>Questão 4:</h1>
+    <section id="questoes2" class="questoes2">
+            <img id="lampada" src="./on.gif" alt="">
+            <p id="p4" style="color: rgb(255, 183, 0); font-weight: bold; font-size: 25px;">Lâmpada</p>
+            <br>
+            <input id="bacender" type="button" class="bott1" value="acender" onclick="acender()" disabled>
+            <input id="bapagar" type="button" class="bott1" value="apagar" onclick="apagar()">
+    </section>
+
+    <div class="soma">
+        <h2>Somar Dois Números</h1>
+            <div class="infonumero">
+                <p>Informe o primeiro número:</p><input class="bsoma" id="n1" type="text">
+            </div>
+
+            <div class="infonumero">
+                <p>Informe o segundo número:</p><input class="bsoma" id="n2" type="text">
+            </div>
+            
+            <input type="button" value="somar" onclick="soma()">
+
+            <p id="resultado"></p>
+        </div>
+</body>
+</html>
